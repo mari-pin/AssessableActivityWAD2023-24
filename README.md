@@ -4,7 +4,8 @@
 ### open the console in the path where I have saved the file with command
   ssh -i labsuser.pem ubuntu@elasticIP
 ### Install mysql and php after doing an updates
-  sudo apt-get update
+  sudo apt-get update          
+
   sudo apt-get install mysql-server php libapache2-mod-php php-mysql
 ### Install the aplication with the provided URL and unzip
   wget -U "Firefox" "https://phpgurukul...." -O hostel.zip
